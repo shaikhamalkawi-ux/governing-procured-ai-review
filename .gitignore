@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+*.aux
+*.log
+*.bbl
+*.blg
+*.synctex.gz
+.DS_Store
+private/
+**/Scopus_*Original*
+**/WoS_*Original*
+**/*_PRIVATE*

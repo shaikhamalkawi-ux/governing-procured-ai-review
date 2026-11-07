@@ -1,0 +1,23 @@
+{
+  "project": "99aI",
+  "release": "R41",
+  "as_of": "2026-11-08",
+  "retrieval_raw_positive_rows_before_deduplication": 3041,
+  "raw_count_scope": "October 2026 Scopus/WoS main and narrow, plus health/action supplementary; not final study count",
+  "provisional_bibliographic_identities": 2556,
+  "AI_assisted_first_pass_read": 220,
+  "unread": 2336,
+  "independent_human_title_abstract_screen": "NOT_PERFORMED",
+  "full_text_final_inclusion": "NOT_DETERMINED",
+  "PRISMA_ScR": "NOT_COMPLETED",
+  "read_provisional_label_counts": {
+    "AI_USED_IN_PROCUREMENT_ONLY": 65,
+    "CONTEXT_ONLY": 70,
+    "DIRECT_TA_POSSIBLE": 15,
+    "HOLD_DIRECTION_OR_UNIT": 19,
+    "OUTSIDE_SCOPE_TA": 39,
+    "WRONG_TOPIC_RANDOM_CONTROL": 12
+  },
+  "public_evidence_chart_source_count": 14,
+  "notes": "These are preliminary research-audit units. No eligibility, prevalence, or causal claim follows."
+}
