@@ -1,0 +1,16 @@
+rule_id,prohibited_inference,evidence_fact_ids
+NI01,GAO contract continuation does not prove continued deployment of the same AI programme.,GEO-02|GEO-03
+NI02,FEMA programme retirement does not prove a supplier penalty or breach.,GEO-03|PARC-02
+NI03,Feedback without written record cannot certify contractor corrective action.,GEO-01
+NI04,An unenforceable testing obligation cannot be counted as an actual vendor test.,PARC-01
+NI05,Preproduction retirement cannot be called a postdeployment remediation.,SOKAT-01
+NI06,Follow-on contract improvements are not sanctions under the original contract.,MAVEN-01
+NI07,Rejecting a proposed license price is not realized procurement spending.,XM30-01
+NI08,Software update deployment does not establish improved model accuracy.,VIC-02
+NI09,Data retention remediation is not AI model remediation.,VIC-03
+NI10,Routine KPI reporting cannot establish independent verification of every KPI.,VIC-04
+NI11,Supplier review frequency does not identify a shipped model release.,QLD-01|QLD-02
+NI12,"98.7% screening reduction is a contemporary processing ratio, not vendor-remediation effect.",QLD-03
+NI13,PHU documentation-time outcomes are not vendor-accountability causal effects.,PHU-06
+NI14,Buyer-authored template updates cannot be recoded as supplier fixes.,PHU-05
+NI15,Neither 9 programme families nor 28 event rows are a systematic evidence prevalence sample.,ALL

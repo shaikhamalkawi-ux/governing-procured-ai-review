@@ -12,3 +12,5 @@
 10. No final PRISMA-ScR flow, verified full-text inclusion count, registration or journal-acceptance claims are authorized by this repository.
 11. Dates, source names and registration metadata should be checked against original publisher/government material before a final article version.
 12. Human author decisions are needed for author order, licensing of full manuscripts, funding/conflicts, disclosure wording, and persistent DOI.
+
+13. The earlier R29 public documentary replay checks 28 AI-assisted source interpretations against 140 fixed proposition checks; passing is deterministic data-integrity verification, **not** independent appraisal or new empirical research.
