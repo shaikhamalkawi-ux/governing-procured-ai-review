@@ -19,10 +19,12 @@ This public research checkpoint contains source-auditable, **non-proprietary** d
 - `data/R40_14_sources_evidence_chart_PUBLICSAFE.csv`: source-level evidence limitations and public locators.
 - `data/documentary/`: five original R29 public-safe documentary registers plus frozen `replay_public_safe.py` reproducing the 28 descriptions and 140 proposition checks (these are NOT independent empirical observations or causal effects).
 - `scripts/audit_release.py`: no-dependency public check of IDs, label totals, non-final states and crosswalk.
+- `scripts/build_fulltext_queue.py`: portable private-input utility to create a full-text **retrieval** queue without publishing licensed source metadata or deciding eligibility.
+- `docs/SCREENING_AND_FAMILY_HOLDS.md`: 34 high-priority records and study-family verification risks.
 - `tests/test_audit_release.py`: reproducibility checks including intentional corrupt-data rejection.
 - `protocol/PCC2_Boundaries_2026-11-08.md`: population/concept/context and stage/claim guardrails.
 - `docs/SCIENTIFIC_LIMITS.md`: strict source, licensing and inference boundaries.
-- `manuscript/`: author-preparation PDF copies (once deposited); these are **not peer-reviewed or submitted**.
+- `manuscript/`: **R41 MDPI documentary main PDF and supplementary PDF**, author-preparation working versions; these are **not peer-reviewed, published or submitted**.
 
 ## Run (Python 3.10+, standard library only)
 
@@ -30,6 +32,8 @@ This public research checkpoint contains source-auditable, **non-proprietary** d
 python scripts/audit_release.py
 python -m unittest discover -s tests -v
 python data/documentary/replay_public_safe.py
+# Optional, requires your authorized private R41 status CSV:
+python scripts/build_fulltext_queue.py --input-private PATH/PRIVATE_STATUS.csv --output-private PATH/FULLTEXT_QUEUE_PRIVATE.csv
 ```
 
 Passing these tests verifies file consistency; it **cannot validate source semantics or decide eligibility**.

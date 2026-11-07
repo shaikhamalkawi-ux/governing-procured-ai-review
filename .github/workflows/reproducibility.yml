@@ -14,3 +14,5 @@ jobs:
         run: python scripts/audit_release.py
       - name: Test positive and negative assertions
         run: python -m unittest discover -s tests -v
+      - name: Reproduce public documentary rule certificates
+        run: python data/documentary/replay_public_safe.py
