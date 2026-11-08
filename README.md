@@ -4,10 +4,10 @@
 
 This public research checkpoint contains source-auditable, **non-proprietary** decision metadata and code. The study is currently in the **systematic scoping review execution phase**; it is not yet a completed PRISMA-ScR review or a final journal submission. The separate R38 documentary manuscript is a purposive critical review, not a systematic review.
 
-## Latest verified source-screening checkpoint: R46 — 8 November 2026
+## Latest verified source-screening checkpoint: R47 — 8 November 2026
 
 - 2,556 provisional bibliographic identities after conservative reconciliation.
-- **648** source identities have individually reasoned, non-final title/abstract first-pass assessments (**580 inherited R45 + 68 new R46**); **1,908 still await individual source reading**. All the previous 1,976 unread source abstracts were also parsed using deterministic machine routing, which does NOT mean 1,976 additional individually screened studies. These bibliographic identity groups are not an adjudicated eligible-study set.
+- **772** source identities have non-final case-text first-pass routes (**648 inherited R46 + 124 new R47**); **1,784 await a case-text assessment**. R47 reuses a frozen 192-ID R46 review plan without double counting its 68 already assessed IDs. All automated results remain distinct from final scientific eligibility. All the previous 1,976 unread source abstracts were also parsed using deterministic machine routing, which does NOT mean 1,976 additional individually screened studies. These bibliographic identity groups are not an adjudicated eligible-study set.
 - A 14-source crosswalk records evidence-stage limits and original source links. These 14 entries **are not** a final included-study set.
 - No final include/exclude decisions, independent human double-screening, inter-rater statistic, prevalence estimate, causal contract-remedy effect or completed PRISMA flow is claimed.
 - Original Scopus/Web of Science raw files: **22 verified batches; 9 format-pair groups concordant** in private source custody. These licensed files are **not distributed** here.
@@ -53,6 +53,7 @@ python scripts/audit_r43_public.py
 python scripts/audit_r44_public.py
 python scripts/audit_r45_public.py
 python scripts/audit_r46_public.py
+python scripts/audit_r47_public.py
 python -m unittest discover -s tests -v
 python data/documentary/replay_public_safe.py
 # Optional, requires your authorized private R41 status CSV:
@@ -90,3 +91,7 @@ A new pre-frozen 112-record AI-assisted title/abstract batch used 32 high-ranked
 ## R46 manuscript reading copy and scientific boundary
 
 The original R41 **15-page documentary paper** and **11-page supplementary material** have been assembled without rewriting either source into a **26-page Main with Appendix** PDF: the appendix directly follows the paper with a labelled appendix bookmark. This delivery is separate from the unfinished scoping review and is available alongside the full confidential research package in the project's connected Google Drive. R46 has 12 bounded source cards, including original published evidence on the NHS contracting timeline and U.S. municipal interviews, with full-text/abstract provenance levels kept distinct. The 100-ID retrieval queue does not constitute a full-text eligibility list; no final study count or PRISMA diagram is claimed. See `README_R46.md` and `docs/R46_METHODS_SOURCE_GATES_AND_APPENDIX.md`.
+
+## R47 continued primary source reading and evidence limits
+
+R47 adds `data/R47_124_CaseText_Triage_PUBLICSAFE.csv` and `data/R47_ProgressSummary.json` plus `scripts/audit_r47_public.py`, `data/R47_SourceCheck_PUBLICSAFE.csv` and `docs/R47_Scientific_Source_and_Method_Report.md`. The full original title/abstract rationale is held in restricted Drive research custody, **not public GitHub**. Original journal checks distinguish public co-design partnerships, purchases by mixed-public/private health systems, and prospective municipal practitioner views from executed government AI vendor contracts. R47 is a title/abstract source-text triage increment only, not 124 full-text admissions, independent empirical replications or a final systematic-scoping synthesis. The R46 documentary paper remains 15 main pages followed immediately by its 11-page Appendix in the same PDF.
