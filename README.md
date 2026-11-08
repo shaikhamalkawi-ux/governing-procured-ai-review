@@ -4,10 +4,10 @@
 
 This public research checkpoint contains source-auditable, **non-proprietary** decision metadata and code. The study is currently in the **systematic scoping review execution phase**; it is not yet a completed PRISMA-ScR review or a final journal submission. The separate R38 documentary manuscript is a purposive critical review, not a systematic review.
 
-## Latest verified source-screening checkpoint: R48 — 8 November 2026
+## Latest verified source-screening checkpoint: R49 — 8 November 2026
 
 - 2,556 provisional bibliographic identities after conservative reconciliation.
-- **964** distinct source IDs have non-final title/abstract first-pass routes (**648 through R46 + 124 R47 + 192 R48**); **1,592 await an individual first pass**. R48 assessed original title/abstract excerpts in six frozen strata of 32 IDs each; this is not 192 full-text reads. The deterministic machine routing from R46 remains a separate source-prioritization diagnostic, not 1,976 completed case reads. Bibliographic identities are not adjudicated independent included studies.
+- **1,348** distinct source IDs have non-final title/abstract first-pass routes (**964 inherited through R48 + 384 R49 from six frozen selection strata**); **1,208 await individual source-level evaluation**. R49 uses conservative AI-assisted rule-gated title/abstract source triage, with 48 semantic rechecks; it does not represent 384 newly verified fulltext studies. All R49 routes and labels remain non-final and cannot serve as completed PRISMA-ScR eligibility counts.
 - A 14-source crosswalk records evidence-stage limits and original source links. These 14 entries **are not** a final included-study set.
 - No final inclusion/exclusion, prevalence, causal contract-remedy effect, estimated screen sensitivity or completed PRISMA flow is claimed.
 - Original Scopus/Web of Science raw files: **22 verified batches; 9 format-pair groups concordant** in private source custody. These licensed files are **not distributed** here.
@@ -59,6 +59,7 @@ python scripts/audit_r44_public.py
 python scripts/audit_r45_public.py
 python scripts/audit_r46_public.py
 python scripts/audit_r48_public.py
+python scripts/audit_r49_public.py
 python scripts/audit_r47_public.py
 python -m unittest discover -s tests -v
 python data/documentary/replay_public_safe.py
@@ -105,3 +106,11 @@ R47 adds `data/R47_124_CaseText_Triage_PUBLICSAFE.csv` and `data/R47_ProgressSum
 ## R48: contract clauses are already studied — stronger question is evidentiary traceability
 
 R48 does **not** claim to be the first public-AI procurement or contracts study. A publicly accessible 2026 Federation of American Scientists memo reports 215 AI contracts and 3,771 provisions across three states, but its 2026 figures are author-reported ongoing research and the memo is an *external prior-art source*, not a newly included record in the locked 2,556. The narrower source-charting question is whether a document supports a normative clause, actual vendor sourcing, signed contract, dated post-award oversight action, supplier response, and a separately supported outcome. Those roles are not ordinal scores, independently verified legal remedies or causal proof. In R48, one original publisher fulltext (`BIB02569`) documents 21 functional and 6 nonfunctional criteria applied to written vendor submissions for selecting AutoML in an Australian public health service, but does not prove that contractual audit rights were exercised after deployment. See `docs/R48_SCIENTIFIC_PROGRESS_AND_PRIOR_ART_AUDIT_EN.md`. The distinct documentary 26-page Main→Appendix PDF remains scientifically unchanged.
+
+## R49 — contract identity and post-award source-claim audit
+
+R49 adds `data/R49_384_TitleAbstract_Provisional_Routes_PUBLICSAFE.csv`, `data/R49_progress_summary_PUBLICSAFE.json`, and `scripts/audit_r49_public.py` plus tests and documented source distinctions. Among 384 new conservative first-pass routes, **one direct candidate** (BIB00634) reports an AI facial-profiling company with a U.S. federal contract but lacks an examined original award; **14 vendor or publication-identity holds**, including 12 conference-proceedings containers; 2 AI-used-in-procurement, 80 contextual, 287 initial outside-scope. Six initial false-outside decisions were corrected after inspecting frozen source text. These counts are purposes of preliminary screening, not admitted studies or population estimates.
+
+For stronger evidence-role analysis, `data/R49_18_SourceClaimEvidenceRoles_PUBLICSAFE.csv` distinguishes proposals (P), sourcing (S), original signed instrument (C), oversight (O), supplier response (R), and attributable effectiveness (X); these are **non-ordinal** evidence dimensions and are neither a new maturity score nor a ranking. The release includes three independently linked source checks on the recovered cases, and a distinct federal cross-record control: public USAspending records a DHS purchase of **Clearview AI** licenses while GAO describes buyer-side Clearview account-training oversight. A separate **Faception** contract allegation MUST NOT be joined to Clearview or reinterpreted as an exercised contractual remedy. Public source documentation in `docs/R49_METHOD_SOURCE_BARRIERS.md` and `docs/R49_US_FEDERAL_AI_CROSSRECORD_COMPARISON.md`. 
+
+**Fulltext retrieval queue:** previous 100 + R48 one + R49 three = **104** prioritized record IDs only, without claiming 104 eligible studies or completed fulltext reads. The separate R41 documentary article is still a 15-page Main immediately followed by its 11-page Appendix within one PDF; its science was not rewritten. The full bibliographic exports and licensed abstracts are retained privately in Google Drive, never public GitHub.
