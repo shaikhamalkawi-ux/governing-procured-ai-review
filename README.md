@@ -4,10 +4,10 @@
 
 This public research checkpoint contains source-auditable, **non-proprietary** decision metadata and code. The study is currently in the **systematic scoping review execution phase**; it is not yet a completed PRISMA-ScR review or a final journal submission. The separate R38 documentary manuscript is a purposive critical review, not a systematic review.
 
-## Latest verified source-screening checkpoint: R43 B05, 8 November 2026
+## Latest verified source-screening checkpoint: R44 source-safety B06, 8 November 2026
 
 - 2,556 provisional bibliographic identities after conservative reconciliation.
-- **404** titles and abstracts inspected at an **AI-assisted, single-pass, provisional** level (**220 R41 + 64 R42 + 120 new R43**); **2,152 remain unread**. These bibliographic identity groups are not an adjudicated eligible-study set.
+- **468** titles and abstracts inspected at an **AI-assisted, single-pass, provisional** level (**220 R41 + 64 R42 + 120 R43 + 64 R44 frozen safety-sample controls**); **2,088 remain unread**. These bibliographic identity groups are not an adjudicated eligible-study set.
 - A 14-source crosswalk records evidence-stage limits and original source links. These 14 entries **are not** a final included-study set.
 - No final include/exclude decisions, independent human double-screening, inter-rater statistic, prevalence estimate, causal contract-remedy effect or completed PRISMA flow is claimed.
 - Original Scopus/Web of Science raw files: **22 verified batches; 9 format-pair groups concordant** in private source custody. These licensed files are **not distributed** here.
@@ -17,7 +17,9 @@ This public research checkpoint contains source-auditable, **non-proprietary** d
 - `data/R41_220_provisional_decisions_PUBLICSAFE.csv`: stable study IDs, first-pass routing categories, and explicit non-final status (no licensed abstracts).
 - `data/R41_progress_summary.json`: historical R41 audited counts and gates (unchanged). 
 - `data/R42_B04_64_provisional_decisions_PUBLICSAFE.csv` and `data/R42_progress_summary.json`: historical 64-record R42 public-safe delta (unchanged).
-- `data/R43_B05_120_provisional_decisions_PUBLICSAFE.csv` and `data/R43_progress_summary.json`: current additional 120 and authoritative R43 first-pass totals.
+- `data/R43_B05_120_provisional_decisions_PUBLICSAFE.csv` and `data/R43_progress_summary.json`: historical R43 +120 checkpoint (unchanged).
+- `data/R44_64_Provisional_RecallStress_PUBLICSAFE.csv`, `data/R44_progress_summary.json` and `data/R44_Three_PublicSource_Gates_PUBLICSAFE.csv`: R44 new 64 previously frozen low/mid heuristic safety records, non-final status, three original-source claim boundaries.
+- `scripts/audit_r44_public.py`, `tests/test_audit_r44_public.py`, `docs/R44_HEURISTIC_SAFETY_TEST.md`: positive and negative checks of R44 labels, provenance and source uncertainty, with licensed data excluded.
 - `data/R43_Original_Source_Verification_PublicSafe.csv` and `docs/R43_GOVERNANCE_SOURCE_GATES.md`: seven linked primary-source examples, acquisition-role distinctions, and contract/oversight evidence-stage limits.
 - `scripts/audit_r43_public.py` and `tests/test_audit_r43_public.py`: public-data-only reproducibility checks including duplicate and false-finality rejection.
 - `scripts/audit_r42_direction.py` and `tests/test_audit_r42_direction.py`: no-dependency R42 integrity tests, including a deliberately falsified-inclusion test.
@@ -38,6 +40,7 @@ This public research checkpoint contains source-auditable, **non-proprietary** d
 python scripts/audit_release.py
 python scripts/audit_r42_direction.py
 python scripts/audit_r43_public.py
+python scripts/audit_r44_public.py
 python -m unittest discover -s tests -v
 python data/documentary/replay_public_safe.py
 # Optional, requires your authorized private R41 status CSV:
@@ -58,8 +61,12 @@ Code in `scripts/` and `tests/` is made available under the MIT license specifie
 
 ## R42 reproducible screening safeguard (8 November 2026)
 
-The repository now includes `scripts/validate_independent_screening.py`, `tests/test_validate_independent_screening.py`, and `protocol/INDEPENDENT_SCREENING_AND_ADJUDICATION.md`. The additional checks detect artificial-as-human labels, duplicated reviewers, mismatched evidence stages, disagreement and incomplete record coverage. Execute all tests with `python -m unittest discover -s tests -v`. This is **workflow QA, not human screening**. It was added before the R42 B04 64-record scientific increment; all 404 first-pass judgments remain provisional, and 2,152 records are still unread. No final included-study count or PRISMA chart is asserted.
+The repository now includes `scripts/validate_independent_screening.py`, `tests/test_validate_independent_screening.py`, and `protocol/INDEPENDENT_SCREENING_AND_ADJUDICATION.md`. The additional checks detect artificial-as-human labels, duplicated reviewers, mismatched evidence stages, disagreement and incomplete record coverage. Execute all tests with `python -m unittest discover -s tests -v`. This is **workflow QA, not human screening**. It was added before the R42 B04 64-record scientific increment; all 468 first-pass judgments remain provisional, and 2,088 records are still unread. No final included-study count or PRISMA chart is asserted.
 
 ## R43 scientific interpretation: government buying AI vs AI used in procurement
 
 The new 120-record source-read tranche is deliberately high-priority, not probability-sampled. Its tentative routes are: 5 direct, 17 vendor/identity holds, 28 AI-used-in-procurement, 36 contextual, and 34 out-of-scope. They are **not counts of confirmed eligible/excluded studies**. Original Brazilian CGU evidence describes the Alice tender-monitoring tool as government-developed; vendor procurement must not be inferred simply from public-sector deployment. Case-level procurement contracts, executed oversight clauses, and observed vendor remediation are different evidence types. See `docs/R43_GOVERNANCE_SOURCE_GATES.md` for seven public linked source checks and study-family holds.
+
+## R44 caution about low-signal sources
+
+The prespecified R44 test sampled **32 low- and 32 mid-signal** bibliographic identities before individual AI-assisted title/abstract review. It detected a low-score commercial **spyware** vendor-government-client discussion, but **spyware is not necessarily AI**. The study remains on **HOLD** until evidence establishes AI capability and a specific public buyer/vendor instrument. This test is neither an estimated recall/sensitivity statistic nor a verified missed eligible study. Source-level uncertainty is an essential finding; do not auto-exclude solely because a lexical score is low. See `docs/R44_HEURISTIC_SAFETY_TEST.md`.
