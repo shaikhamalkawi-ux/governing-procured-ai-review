@@ -4,10 +4,10 @@
 
 This public research checkpoint contains source-auditable, **non-proprietary** decision metadata and code. The study is currently in the **systematic scoping review execution phase**; it is not yet a completed PRISMA-ScR review or a final journal submission. The separate R38 documentary manuscript is a purposive critical review, not a systematic review.
 
-## Latest verified source-screening checkpoint: R50 — 8 November 2026
+## Latest verified source-screening checkpoint: R51 — 8 November 2026
 
 - 2,556 provisional bibliographic identities after conservative reconciliation.
-- **1,444** distinct source IDs now have non-final title/abstract first-pass routes (**1,348 through R49 + 96 new R50**); **1,112 await individual original-source assessment**. In R50, three already-screened R39/R40 records were additionally checked against publisher sources; these rechecks did **not** increase the distinct-ID count. Two prior contextual labels (BIB01200, BIB00196) were upgraded to priority retrieval after original publisher evidence. R49 uses conservative AI-assisted rule-gated title/abstract source triage, with 48 semantic rechecks; it does not represent 384 newly verified fulltext studies. All R49 routes and labels remain non-final and cannot serve as completed PRISMA-ScR eligibility counts.
+- **1,636** original bibliographic IDs have a source-specific, **AI-assisted provisional title/abstract first-pass** (**1,444 inherited through R50 + 192 new R51**); **920 await case-level source reading**. R51 uses four frozen 48/64/32/48 strata and records source-specific reason codes; this is not full-text eligibility, a study count, or a representative sample. In R50, three already-screened R39/R40 records were additionally checked against publisher sources; these rechecks did **not** increase the distinct-ID count. Two prior contextual labels (BIB01200, BIB00196) were upgraded to priority retrieval after original publisher evidence. R49 uses conservative AI-assisted rule-gated title/abstract source triage, with 48 semantic rechecks; it does not represent 384 newly verified fulltext studies. All R49 routes and labels remain non-final and cannot serve as completed PRISMA-ScR eligibility counts.
 - A 14-source crosswalk records evidence-stage limits and original source links. These 14 entries **are not** a final included-study set.
 - No final inclusion/exclusion, prevalence, causal contract-remedy effect, estimated screen sensitivity or completed PRISMA flow is claimed.
 - Original Scopus/Web of Science raw files: **22 verified batches; 9 format-pair groups concordant** in private source custody. These licensed files are **not distributed** here.
@@ -61,6 +61,7 @@ python scripts/audit_r46_public.py
 python scripts/audit_r48_public.py
 python scripts/audit_r49_public.py
 python scripts/audit_r50_public.py
+python scripts/audit_r51_public.py
 python scripts/audit_r47_public.py
 python -m unittest discover -s tests -v
 python data/documentary/replay_public_safe.py
@@ -125,3 +126,12 @@ For stronger evidence-role analysis, `data/R49_18_SourceClaimEvidenceRoles_PUBLI
 - The 66-page Cusenza paper and two SSRN landing IDs are treated as one author-title **version family** pending full publication identity. The FAS state-AI contract inventory is an out-of-corpus policy report with author-reported 215 contracts/3,771 clauses, not reproduced here. This prohibits first-in-field novelty claims about contract inventories or post-award disputes.
 - `docs/R50_ORIGINAL_SOURCE_AND_PRIOR_ART_AUDIT.md` states what original sources support, which stages remain unproven, and the next work. `tests/test_audit_r50_public.py` adds seven positive/negative checks. The full local release passed 53 inherited+new tests.
 - The **separate documentary article remains exactly unchanged**, 15-page Main directly followed by 11-page Appendix in one PDF. Licensed source export titles/abstracts and third-party article PDFs are kept private, not uploaded here. No completed PRISMA-ScR flow, causal remedy effect or final inclusion count is claimed.
+
+## R51: original-source evidence depth and report-identity safeguards
+
+- `data/R51_192_ProvisionalTitleAbstractRoutes_PUBLICSAFE.csv` and `data/R51_progress_summary.json`: 192 AI-assisted, non-final new source-ID routes and frozen universe conservation. Prior versions remain unchanged. 1,636 of 2,556 IDs now routed, **920 pending**.
+- `data/R51_106_FulltextRetrieval_SourceGate_PUBLICSAFE.csv`: the **same 106 high-priority retrieval IDs** retained from R50. They are not 106 finalized eligible studies. Of the 106, **24 provider `Conference review` entries are parent/container holds** and **six `Proceedings Paper` entries** require individual report validation; do not conflate the types. In R51, 16 queue records have source cards; the other 90 were not reverified *in this release*, which does not imply they were never checked earlier.
+- `data/R51_17_OriginalSource_ClaimAudit_PUBLICSAFE.csv`: 17 source-to-claim audit cards at individually recorded evidence-access levels; **16 belong to the original search corpus** and the external Cusenza 2026 legal manuscript is prior art only. The cards are not 17 included studies, nor 17 original PDF fulltext reads.
+- `data/R51_ReportFamily_Holds_PUBLICSAFE.csv` and `docs/R51_RESEARCH_SOURCE_AND_ORIGINALITY_AUDIT.md`: study/version families and auditability limits; literature already addresses acquisition channels, signed procurement provisions, operational buyer oversight and contractual risk. The bounded contribution question is **claim-specific evidence traceability** from public buyer, legal vendor and AI component, through signed authority, dated action and response, to separately measured outcomes, with no unjustified causal or comparative-effect claims.
+- `scripts/audit_r51_public.py`, `tests/test_audit_r51_public.py`: public structural checks with falsification tests (local 62/62 PASS). Private, separately stored clean reconstruction reproduced eight frozen outputs byte-for-byte. **Successful code checks do not validate source semantics or final eligibility.** Licensed Scopus/WoS metadata, original abstracts, the private audit workbook and copyrighted source PDFs are excluded from public GitHub.
+- Separate **purposive documentary manuscript is unchanged**: 15-page Main followed immediately by 11-page Appendix in one PDF, archived with the **private** project delivery only. The scoping review is **not** final and does **not** have a completed PRISMA-ScR or verified included-study count. DOI and submission metadata are not locked.
