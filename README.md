@@ -4,10 +4,10 @@
 
 This public research checkpoint contains source-auditable, **non-proprietary** decision metadata and code. The study is currently in the **systematic scoping review execution phase**; it is not yet a completed PRISMA-ScR review or a final journal submission. The separate R38 documentary manuscript is a purposive critical review, not a systematic review.
 
-## Latest verified source-screening checkpoint: R49 — 8 November 2026
+## Latest verified source-screening checkpoint: R50 — 8 November 2026
 
 - 2,556 provisional bibliographic identities after conservative reconciliation.
-- **1,348** distinct source IDs have non-final title/abstract first-pass routes (**964 inherited through R48 + 384 R49 from six frozen selection strata**); **1,208 await individual source-level evaluation**. R49 uses conservative AI-assisted rule-gated title/abstract source triage, with 48 semantic rechecks; it does not represent 384 newly verified fulltext studies. All R49 routes and labels remain non-final and cannot serve as completed PRISMA-ScR eligibility counts.
+- **1,444** distinct source IDs now have non-final title/abstract first-pass routes (**1,348 through R49 + 96 new R50**); **1,112 await individual original-source assessment**. In R50, three already-screened R39/R40 records were additionally checked against publisher sources; these rechecks did **not** increase the distinct-ID count. Two prior contextual labels (BIB01200, BIB00196) were upgraded to priority retrieval after original publisher evidence. R49 uses conservative AI-assisted rule-gated title/abstract source triage, with 48 semantic rechecks; it does not represent 384 newly verified fulltext studies. All R49 routes and labels remain non-final and cannot serve as completed PRISMA-ScR eligibility counts.
 - A 14-source crosswalk records evidence-stage limits and original source links. These 14 entries **are not** a final included-study set.
 - No final inclusion/exclusion, prevalence, causal contract-remedy effect, estimated screen sensitivity or completed PRISMA flow is claimed.
 - Original Scopus/Web of Science raw files: **22 verified batches; 9 format-pair groups concordant** in private source custody. These licensed files are **not distributed** here.
@@ -60,6 +60,7 @@ python scripts/audit_r45_public.py
 python scripts/audit_r46_public.py
 python scripts/audit_r48_public.py
 python scripts/audit_r49_public.py
+python scripts/audit_r50_public.py
 python scripts/audit_r47_public.py
 python -m unittest discover -s tests -v
 python data/documentary/replay_public_safe.py
@@ -114,3 +115,13 @@ R49 adds `data/R49_384_TitleAbstract_Provisional_Routes_PUBLICSAFE.csv`, `data/R
 For stronger evidence-role analysis, `data/R49_18_SourceClaimEvidenceRoles_PUBLICSAFE.csv` distinguishes proposals (P), sourcing (S), original signed instrument (C), oversight (O), supplier response (R), and attributable effectiveness (X); these are **non-ordinal** evidence dimensions and are neither a new maturity score nor a ranking. The release includes three independently linked source checks on the recovered cases, and a distinct federal cross-record control: public USAspending records a DHS purchase of **Clearview AI** licenses while GAO describes buyer-side Clearview account-training oversight. A separate **Faception** contract allegation MUST NOT be joined to Clearview or reinterpreted as an exercised contractual remedy. Public source documentation in `docs/R49_METHOD_SOURCE_BARRIERS.md` and `docs/R49_US_FEDERAL_AI_CROSSRECORD_COMPARISON.md`. 
 
 **Fulltext retrieval queue:** previous 100 + R48 one + R49 three = **104** prioritized record IDs only, without claiming 104 eligible studies or completed fulltext reads. The separate R41 documentary article is still a 15-page Main immediately followed by its 11-page Appendix within one PDF; its science was not rewritten. The full bibliographic exports and licensed abstracts are retained privately in Google Drive, never public GitHub.
+
+## R50 source-depth correction — 106 retrieval leads, not 106 included papers
+
+- New original 96 title/abstract routes are held in `data/R50_96_SourceText_Triage_PUBLICSAFE.csv` with source-specific reason codes. **All decisions remain provisional.**
+- Three R39/R40 previously read original IDs were rechecked at publisher level: BIB01200 (Spanish-EU legal treatment of AI **as a purchase object** and AI **used to purchase**), BIB00196 (UK purchase-of-AI legal chapter) and BIB00229 (AI **used within government purchasing**, not an observed externally procured AI service). Two previously context-coded papers are now priority full-text retrieval cases; old R39/R40 labels remain frozen in their historic files.
+- Fulltext retrieval-priority **106 IDs = 104 inherited + 2 new priorities**; these are not 106 independently included studies. See `data/R50_106_RetrievalPriority_IDonly_PUBLICSAFE.csv` and source access tiers in `data/R50_104_FullText_Retrieval_Status_PUBLICSAFE.csv`.
+- `data/R50_20_Original_Source_ClaimBoundaries_PUBLICSAFE.csv` is a **20-source-card** claim-boundary and prior-art register (15 original indexed sources, five separate off-corpus/updated-search or version sources). The source cards do not assert 20 admissible studies or 20 original full-text PDF reads.
+- The 66-page Cusenza paper and two SSRN landing IDs are treated as one author-title **version family** pending full publication identity. The FAS state-AI contract inventory is an out-of-corpus policy report with author-reported 215 contracts/3,771 clauses, not reproduced here. This prohibits first-in-field novelty claims about contract inventories or post-award disputes.
+- `docs/R50_ORIGINAL_SOURCE_AND_PRIOR_ART_AUDIT.md` states what original sources support, which stages remain unproven, and the next work. `tests/test_audit_r50_public.py` adds seven positive/negative checks. The full local release passed 53 inherited+new tests.
+- The **separate documentary article remains exactly unchanged**, 15-page Main directly followed by 11-page Appendix in one PDF. Licensed source export titles/abstracts and third-party article PDFs are kept private, not uploaded here. No completed PRISMA-ScR flow, causal remedy effect or final inclusion count is claimed.
