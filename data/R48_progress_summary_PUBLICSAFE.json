@@ -1,0 +1,49 @@
+{
+  "project": "99aI",
+  "version": "R48_SourceText192_ProvenanceAndPriorArt",
+  "date": "2026-11-08",
+  "topic": "Governing Procured AI: Vendor Accountability and Post-Deployment Oversight in the Public Sector",
+  "original_bibliographic_identity_groups": 2556,
+  "baseline_R46_individual_firstpass": 648,
+  "baseline_R47_additional_case_text": 124,
+  "R48_additional_source_excerpt_firstpass": 192,
+  "cumulative_provisional_firstpass": 964,
+  "pending_individual_firstpass": 1592,
+  "provisional_coverage_pct": 37.71518,
+  "new_R48_labels": {
+    "AI_USED_IN_PROCUREMENT_ONLY": 2,
+    "CONTEXT_ONLY": 38,
+    "DIRECT_TA_POSSIBLE": 1,
+    "HOLD_DIRECTION_OR_UNIT": 4,
+    "OUTSIDE_SCOPE_TA": 147
+  },
+  "R48_strata_each_n": 32,
+  "strata": [
+    "PUBLIC_AI_PURCHASE_DIRECTION",
+    "EXTERNAL_SUPPLIER_RELATION",
+    "PUBLIC_BUYER_UNVERIFIED",
+    "PUBLIC_AI_DEPLOYMENT",
+    "UNRELIABLE_AI_LEXICAL_SIGNAL",
+    "GENERAL_POLICY_AND_USE"
+  ],
+  "fulltext_queue_from_R46": "100_POTENTIAL_RETRIEVAL_NOT_FINAL",
+  "new_fulltext_retrieval_candidate": "BIB02569",
+  "source_evidence_cards": 12,
+  "source_evidence_roles": {
+    "PRIOR_FROZEN_2556": 11,
+    "NEW_EXTERNAL_PRIOR_ART_NOT_DENOMINATOR": 1
+  },
+  "new_identity_family_holds": 2,
+  "final_study_selection": "NOT_DETERMINED",
+  "PRISMA_ScR_flow": "NOT_COMPLETED",
+  "stage": "AI_ASSISTED_PROVISIONAL_TITLE_AND_ABSTRACT_BRIEF_PLUS_TARGETED_PRIMARY_SOURCE_CHECKS",
+  "inclusion_definition": "Government externally acquires an AI system or service; conceptual and inside-government AI in procurement are separated",
+  "not_a_prevalence_estimate": true,
+  "copyright_rule": "Raw bibliographic licensed titles/abstracts stay private. Public release includes IDs, authored derived labels and publicly accessible source URLs only.",
+  "original_source_SHA256": "9cf7a0d07e7ebd80283437b21158c55c86559fbaa05780b4a0e6dcd58d98ce79",
+  "R48_selection_SHA256": "a2a1ed91a9e977bc61649940efbe2c8995e8d43b9874193c8e3150daa4de3a7f",
+  "R48_private_label_SHA256": "7188c3eecda9a40791e248d427723ae8908abd3b25069b26d7a4c48f000d3d43",
+  "R48_public_label_SHA256": "a5c1f8b1f390fbdeef1f358016f9a54dbfb9d3fe814313ef63d82d9296223357",
+  "R48_full_status_SHA256": "a2dc4999fb74361c8bd07168532905bca5fcda2ba189fecaf6798ead132ff2a1",
+  "R47_private_baseline_package_SHA256": "8dc76a075d26ac2367127eda785603c5361a3ffea166473dc852cd2c92abb564"
+}
