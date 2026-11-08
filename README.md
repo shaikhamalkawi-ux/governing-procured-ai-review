@@ -47,3 +47,7 @@ A permanent archival DOI and author-approved citation are pending. Please do **n
 ## Copyright / access policy
 
 Code in `scripts/` and `tests/` is made available under the MIT license specified in `LICENSE-CODE`. Content in `manuscript/` is a public author working draft, with publication/reuse rights reserved pending an author-approved policy. Source bibliographic exports, copyrighted published PDFs and privately held full texts are **not uploaded**. See `docs/SCIENTIFIC_LIMITS.md`.
+
+## R42 reproducible screening safeguard (8 November 2026)
+
+The repository now includes `scripts/validate_independent_screening.py`, `tests/test_validate_independent_screening.py`, and `protocol/INDEPENDENT_SCREENING_AND_ADJUDICATION.md`. The seven additional checks detect artificial-as-human labels, duplicated reviewers, mismatched evidence stages, disagreement and incomplete record coverage. Execute all tests with `python -m unittest discover -s tests -v`. This is **workflow QA, not human screening**: all 220 prior AI-assisted labels remain provisional, and 2,336 records remain unread. No final included-study count or PRISMA chart is asserted.
