@@ -1,0 +1,41 @@
+{
+  "project": "99aI",
+  "version": "R49_SOURCEFIRSTPASS_384",
+  "date": "2026-11-08",
+  "original_bibliographic_identity_groups": 2556,
+  "previous_nonfinal_firstpass_routes": 964,
+  "new_R49_nonfinal_firstpass_routes": 384,
+  "cumulative_nonfinal_firstpass_routes": 1348,
+  "pending_original_source_identities": 1208,
+  "coverage_percent": 52.738654,
+  "frozen_R49_strata": {
+    "A_EXPLICIT_PROCUREMENT_DIRECTION": 64,
+    "B_POSTAWARD_SUPPLIER_OVERSIGHT": 64,
+    "C_PUBLIC_HEALTH_VENDOR_AI": 64,
+    "D_LEGAL_GOVERNANCE_ACQUISITION": 64,
+    "E_LOW_SIGNAL_SAFETY_SAMPLE": 64,
+    "F_REMAINDER_HASH_CONTROL": 64
+  },
+  "R49_provisional_source_routes": {
+    "AI_USED_IN_PROCUREMENT_ONLY": 2,
+    "CONTEXT_ONLY": 80,
+    "DIRECT_TA_POSSIBLE": 1,
+    "HOLD_DIRECTION_OR_UNIT": 14,
+    "OUTSIDE_SCOPE_TA": 287
+  },
+  "identity_holds_proceedings_container": 12,
+  "semantic_rechecks_inherited": 42,
+  "additional_falsification_rechecks": 6,
+  "original_source_sha256": "9cf7a0d07e7ebd80283437b21158c55c86559fbaa05780b4a0e6dcd58d98ce79",
+  "R48_predecessor_status_sha256": "a2dc4999fb74361c8bd07168532905bca5fcda2ba189fecaf6798ead132ff2a1",
+  "frozen_selection_sha256": "d991a83dc188b23eeaa9d33a306e8b1222d6c470d971b9d62e1f46212606ef2b",
+  "private_r49_master_sha256": "d2f3d006a7bb40df4be89bb6f1547c78275c557fff1fe1d6b1943d3ff7af0f62",
+  "R49_private_routes_sha256": "8ce9d21df4648158a5533b83726a8d845f0fe73ee7ce763f947d4817f444f1d8",
+  "R49_public_routes_sha256": "727bf9a0ba17bf3c6e2a94c9c8237a00333832c6523fc88af2965dab2eeed73c",
+  "assessment_mode": "AI_ASSISTED_RULE_GATED_FIRSTPASS_WITH_SOURCE_SEMANTIC_RECHECKS",
+  "original_fulltext_eligibility": "NOT_DETERMINED",
+  "PRISMA_ScR": "NOT_COMPLETED",
+  "is_representative_sensitivity_estimate": false,
+  "source_provider_data_in_public_release": false,
+  "interpretation": "R49 routes are brief first-pass evaluations from original provider titles and abstracts, not 384 independently verified full texts or a completed scoping review."
+}
