@@ -1,0 +1,55 @@
+{
+  "project": "99aI",
+  "release": "R45",
+  "date": "2026-11-08",
+  "stage": "PRE_RESULTS_SYSTEMATIC_SCOPING_REVIEW",
+  "provisional_bibliographic_identity_groups": 2556,
+  "inherited_previous_AI_assisted_first_pass": 468,
+  "new_R45_AI_assisted_first_pass": 112,
+  "cumulative_AI_assisted_first_pass": 580,
+  "individual_first_pass_unread": 1976,
+  "cumulative_coverage_percent": 22.691706,
+  "R45_fixed_sample": {
+    "HIGH_TOP32": 32,
+    "MID_HASH32": 32,
+    "LOW_HASH32": 32,
+    "VENDOR_ENRICH16": 16
+  },
+  "new_R45_provisional_label_counts": {
+    "AI_USED_IN_PROCUREMENT_ONLY": 10,
+    "CONTEXT_ONLY": 33,
+    "HOLD_DIRECTION_OR_UNIT": 11,
+    "OUTSIDE_SCOPE_TA": 58
+  },
+  "PRISMA_ScR": "NOT_COMPLETED",
+  "independent_human_second_screen": "NOT_PERFORMED",
+  "final_fulltext_inclusion": "NOT_DETERMINED",
+  "new_fulltext_admissions": 0,
+  "new_R45_automated_unread_signal_records": 1976,
+  "automated_signals_are_eligibility_decisions": false,
+  "unread_nonexclusive_signal_flags": {
+    "signal_government_context": 1642,
+    "signal_supplier_word": 292,
+    "signal_procurement_word": 551,
+    "signal_AI_word": 1597,
+    "signal_oversight_word": 437,
+    "flag_proceedings_container": 35,
+    "flag_AI_license_boilerplate": 9,
+    "flag_no_DOI": 178,
+    "flag_indexed_year_after_2026": 9
+  },
+  "possible_exact_title_abstract_groups": 7,
+  "possible_same_title_year_groups": 7,
+  "do_not_sum_identity_groups_due_to_overlap": true,
+  "private_provenance": {
+    "original_source_sha256": "9cf7a0d07e7ebd80283437b21158c55c86559fbaa05780b4a0e6dcd58d98ce79",
+    "R44_predecessor_sha256": "525c82d601c88d742a4437d8df52d06d609e96c4b2d39e6d59cf8ef7f088ff5d",
+    "selection_sha256": "5519e26df72945d043761abc540b0e46746dd0c12bf5c3ceb42b2e885b43a490",
+    "authored_decisions_sha256": "2190118195f2ab835f37b420a235224a0ada93759f9dcf1ca7ba428ec43617da",
+    "private_112_sha256": "1556fbb72817519f9c044be48c961cb8454bb1b1052717bbee95c32e0de71523",
+    "private_status2556_sha256": "e5f60c2f07795d17f627bdc9a3a03c1368caad7e4811f7c971cd4c984d7f7710"
+  },
+  "publication_impact": "R38_R41_DOCUMENTARY_MANUSCRIPT_UNCHANGED",
+  "licensed_metadata_public": "NO",
+  "warning": "No measured recall; cohort purposive; all inclusion/exclusion provisional; no human R2."
+}
