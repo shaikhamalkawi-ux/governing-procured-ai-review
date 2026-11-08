@@ -1,0 +1,34 @@
+{
+  "project": "99aI",
+  "release": "R43_B05",
+  "as_of": "2026-11-08",
+  "record_universe": 2556,
+  "previous_single_pass_covered": 284,
+  "new_AI_assisted_source_reads": 120,
+  "cumulative_AI_assisted_single_pass": 404,
+  "unread": 2152,
+  "coverage_percent": 15.805947,
+  "new_provisional_labels": {
+    "CONTEXT_ONLY": 36,
+    "AI_USED_IN_PROCUREMENT_ONLY": 28,
+    "DIRECT_TA_POSSIBLE": 5,
+    "OUTSIDE_SCOPE_TA": 34,
+    "HOLD_DIRECTION_OR_UNIT": 17
+  },
+  "prior_status_SHA256": "14a6171b9226be1bb10433bfd0113752263f83e08cf76621a6e26487aa54592f",
+  "source_original_SHA256": "9cf7a0d07e7ebd80283437b21158c55c86559fbaa05780b4a0e6dcd58d98ce79",
+  "new_final_included": "NOT_DETERMINED",
+  "independent_human_screen": "NOT_PERFORMED",
+  "PRISMA_ScR": "NOT_COMPLETED",
+  "stage": "title+abstract individually reasoned, AI-assisted, source-licensed PRIVATE; not full-text inclusion, not dual human review",
+  "rank_rule": "Deterministic R42 headline/abstract signal score reused unchanged; stable cluster-ID tie break; 120 top of 2272 remaining R42-unread IDs",
+  "selection_purposive": "YES: these are high-priority candidates, NOT a random prevalence estimate",
+  "family_issues": {
+    "exact_text_container_pairs": 2,
+    "related_government_contract_articles": 1,
+    "possible_adoption_study_family": 1
+  },
+  "source_web_check_date": "2026-11-08",
+  "public_source_checks": 7,
+  "public_rights": "Only stable IDs and original derived classifications; no licensed titles/abstracts/PDFs published."
+}
