@@ -1,0 +1,3 @@
+family_id,record_ids,relation,status,source_role,scientific_implication
+R48_F01,BIB01033;BIB01105,SAME_AUTHOR_EXACT_TITLE_TEXT_CLOSE,HOLD_DO_NOT_MERGE,book-chapter edition genealogy,Do not count both bibliographic chapters as two independent experiments.
+R48_F02,BIB00633;BIB01068,SAME_AUTHORS_CONFERENCE_JOURNAL_POSSIBLE_FAMILY,HOLD_DO_NOT_MERGE,journal-vs-conference version genealogy,Do not infer independent study samples or claim exact duplication without original document crosscheck.
