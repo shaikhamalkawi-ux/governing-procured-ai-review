@@ -1,0 +1,24 @@
+{
+  "project": "99aI",
+  "release": "R47_case_text_checkpoint",
+  "date": "2026-11-08",
+  "original_bibliographic_identity_groups": 2556,
+  "R46_individually_reasoned_first_pass": 648,
+  "new_R47_AI_assisted_case_text_124": 124,
+  "cumulative_provisional_case_text": 772,
+  "remaining_without_case_text": 1784,
+  "R47_provisional_label_counts": {
+    "AI_USED_IN_PROCUREMENT_ONLY": 3,
+    "CONTEXT_ONLY": 70,
+    "HOLD_DIRECTION_OR_UNIT": 10,
+    "OUTSIDE_SCOPE_TA": 41
+  },
+  "final_inclusions": "NOT_DETERMINED",
+  "source_text_mode": "AI_ASSISTED_PROVISIONAL_AND_NOT_FULLTEXT",
+  "source_original_IDs_locked": true,
+  "independent_review_claim": "NONE",
+  "PRISMA_status": "NOT_COMPLETED",
+  "selection_basis": "R46 pre-frozen 192 IDs; exactly 68 already read in R46, next 124 assessed now",
+  "caution": "A conservative text-based route with case-specific reasoning is not validated research eligibility or a representative recall estimate; missing abstracts and public-role ambiguity are held.",
+  "original_source_sha256": "9cf7a0d07e7ebd80283437b21158c55c86559fbaa05780b4a0e6dcd58d98ce79"
+}
