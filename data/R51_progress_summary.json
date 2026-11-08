@@ -1,0 +1,32 @@
+{
+  "project": "99aI",
+  "version": "R51",
+  "date": "2026-11-08",
+  "source_identity_groups_original": 2556,
+  "inherited_R50_provisional_firstpass": 1444,
+  "new_R51_AI_assisted_source_text_provisional": 192,
+  "cumulative_provisional_firstpass": 1636,
+  "remaining_not_yet_source_triaged": 920,
+  "R51_new_labels": {
+    "AI_USED_IN_PROCUREMENT_ONLY": 3,
+    "CONTEXT_ONLY": 68,
+    "HOLD_DIRECTION_OR_UNIT": 19,
+    "OUTSIDE_SCOPE_TA": 102
+  },
+  "R51_strata": {
+    "A_HIGH_SUSPECT_SIGNAL48": 48,
+    "B_TRIAD_RECALL64": 64,
+    "C_CONTAINER_OR_FAMILY32": 32,
+    "D_HASH_SENTINEL48": 48
+  },
+  "source_sha256": "9cf7a0d07e7ebd80283437b21158c55c86559fbaa05780b4a0e6dcd58d98ce79",
+  "frozen_selection_sha256": "16edaf4ee5c77cc3621faa2f6a4e2907c07ddbc4815a6728246a1f985506382c",
+  "private_192_sha256": "ccc8d56991b4908dd41f195b3ddf89037af000ea70ab6511fe95e52a1e2e562d",
+  "public_192_sha256": "b63e20ce6b3de776691d19506ad0de9d654f080770cb80247f21c9653a07dd2b",
+  "final_inclusion": "NOT_DETERMINED",
+  "fulltext_admissions": "NOT_DETERMINED",
+  "independent_study_count": "NOT_DETERMINED",
+  "PRISMA_ScR": "NOT_COMPLETED",
+  "method": "AI-assisted source title/abstract routing, using disclosed classification rules and source-specific reviewed exceptions; only narrow lexical/no-source indicators for other cases; no human R2, no rule-based final exclusions",
+  "licensed_source_released": false
+}
