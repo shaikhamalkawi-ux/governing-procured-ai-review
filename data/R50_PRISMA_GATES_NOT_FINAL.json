@@ -1,0 +1,12 @@
+{
+  "project": "99aI",
+  "status": "NOT_COMPLETED",
+  "provisional_bibliographic_groups": 2556,
+  "nonfinal_case_text_routes": 1447,
+  "pending_individual_source_screening": 1109,
+  "reports_sought_prisma": null,
+  "fulltext_reports_excluded_with_reasons": null,
+  "adjudicated_unique_studies_included": null,
+  "prisma_flow_final": false,
+  "notes": "No final PRISMA counts can be derived from interim bibliographic routing alone."
+}
