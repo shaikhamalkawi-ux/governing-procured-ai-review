@@ -4,12 +4,12 @@
 
 This public research checkpoint contains source-auditable, **non-proprietary** decision metadata and code. The study is currently in the **systematic scoping review execution phase**; it is not yet a completed PRISMA-ScR review or a final journal submission. The separate R38 documentary manuscript is a purposive critical review, not a systematic review.
 
-## Latest verified source-screening checkpoint: R47 — 8 November 2026
+## Latest verified source-screening checkpoint: R48 — 8 November 2026
 
 - 2,556 provisional bibliographic identities after conservative reconciliation.
-- **772** source identities have non-final case-text first-pass routes (**648 inherited R46 + 124 new R47**); **1,784 await a case-text assessment**. R47 reuses a frozen 192-ID R46 review plan without double counting its 68 already assessed IDs. All automated results remain distinct from final scientific eligibility. All the previous 1,976 unread source abstracts were also parsed using deterministic machine routing, which does NOT mean 1,976 additional individually screened studies. These bibliographic identity groups are not an adjudicated eligible-study set.
+- **964** distinct source IDs have non-final title/abstract first-pass routes (**648 through R46 + 124 R47 + 192 R48**); **1,592 await an individual first pass**. R48 assessed original title/abstract excerpts in six frozen strata of 32 IDs each; this is not 192 full-text reads. The deterministic machine routing from R46 remains a separate source-prioritization diagnostic, not 1,976 completed case reads. Bibliographic identities are not adjudicated independent included studies.
 - A 14-source crosswalk records evidence-stage limits and original source links. These 14 entries **are not** a final included-study set.
-- No final include/exclude decisions, independent human double-screening, inter-rater statistic, prevalence estimate, causal contract-remedy effect or completed PRISMA flow is claimed.
+- No final inclusion/exclusion, prevalence, causal contract-remedy effect, estimated screen sensitivity or completed PRISMA flow is claimed.
 - Original Scopus/Web of Science raw files: **22 verified batches; 9 format-pair groups concordant** in private source custody. These licensed files are **not distributed** here.
 
 ## Structure
@@ -20,11 +20,16 @@ This public research checkpoint contains source-auditable, **non-proprietary** d
 - `data/R43_B05_120_provisional_decisions_PUBLICSAFE.csv` and `data/R43_progress_summary.json`: historical R43 +120 checkpoint (unchanged).
 - `data/R44_64_Provisional_RecallStress_PUBLICSAFE.csv`, `data/R44_progress_summary.json` and `data/R44_Three_PublicSource_Gates_PUBLICSAFE.csv`: historical R44 +64 source-safety checkpoint (unchanged).
 - `data/R45_112_Provisional_Routes_PUBLICSAFE.csv` and `data/R45_Public_ProgressSummary.json`: historical R45 +112 source-scoped checkpoint; retained unchanged.
-- `data/R46_All1976_IDOnly_MachineRoutes_PUBLICSAFE.csv`: diagnostic text-signal routing only, not individual source readings.
+- `data/R46_All1976_IDOnly_MachineRoutes_PUBLICSAFE.csv`: historic diagnostic machine text-signal routing only, not individual source readings.
 - `data/R46_68_SourceReasons_PUBLICSAFE.csv`, `data/R46_ProgressSummary_PublicSafe.json`: 68 new first-pass case-level reasons, current 648/1,908 status.
 - `data/R46_100_RetrievalPriority_IDonly_PUBLICSAFE.csv`: retrieval-priority identities, NOT 100 full texts assessed or included studies.
 - `data/R46_4_OriginalSource_Verification_PUBLICSAFE.csv` and `data/R46_8_FurtherPublisherBoundaries_PUBLICSAFE.csv`: 12 traceable source-to-claim cards, including original full text vs publisher abstract vs secondary abstract distinctions.
 - `data/R46_Seven_Exact_TextIdentity_IDonly_PUBLICSAFE.csv`: hold 7 exact title-and-abstract collision sets (17 original source IDs).
+- `data/R48_192_SourceTriage_PUBLICSAFE.csv`, `data/R48_progress_summary_PUBLICSAFE.json`: latest additional 192, cumulative 964 and pending 1,592; no original indexed abstracts.
+- `data/R48_12_OriginalSource_EvidenceBoundary_PublicSafe.csv`: eleven originally indexed evidence sources plus one **out-of-corpus** FAS policy-memo prior-art source.
+- `data/R48_Family_Holds_PublicSafe.csv`: two new, non-automerged conference/book-chapter publication-family relations.
+- `data/R48_Fulltext_Priority_Addendum_IDonly_PUBLICSAFE.csv`: one additional 2024 Australian AutoML vendor-selection candidate, `BIB02569`; prior 100 retrieval leads unchanged.
+- `scripts/audit_r48_public.py`, `tests/test_audit_r48_public.py`, `docs/R48_SCIENTIFIC_PROGRESS_AND_PRIOR_ART_AUDIT_EN.md`: public integrity audit and bounded scientific claim review.
 - `scripts/audit_r46_public.py`, `tests/test_audit_r46_public.py`, `docs/R46_METHODS_SOURCE_GATES_AND_APPENDIX.md`: source-count, stage, ID and rights QA.
 - `data/R45_13_PublicSource_ClaimBoundaries.csv`: 13 author-summarized source propositions across seven source families, not 13 included independent studies.
 - `data/R45_Identity_Holds_IDonly_PUBLICSAFE.csv`: seven exact title/abstract identity groups with 17 distinct bibliographic IDs held rather than auto-merged.
@@ -53,6 +58,7 @@ python scripts/audit_r43_public.py
 python scripts/audit_r44_public.py
 python scripts/audit_r45_public.py
 python scripts/audit_r46_public.py
+python scripts/audit_r48_public.py
 python scripts/audit_r47_public.py
 python -m unittest discover -s tests -v
 python data/documentary/replay_public_safe.py
@@ -74,7 +80,7 @@ Code in `scripts/` and `tests/` is made available under the MIT license specifie
 
 ## R42 reproducible screening safeguard (8 November 2026)
 
-The repository now includes `scripts/validate_independent_screening.py`, `tests/test_validate_independent_screening.py`, and `protocol/INDEPENDENT_SCREENING_AND_ADJUDICATION.md`. The additional checks detect artificial-as-human labels, duplicated reviewers, mismatched evidence stages, disagreement and incomplete record coverage. Execute all tests with `python -m unittest discover -s tests -v`. This is **workflow QA, not human screening**. It was added before the R42 B04 64-record scientific increment; all 648 case-by-case first-pass judgments remain provisional, and 1,908 records still need individual source reading. No final included-study count or PRISMA chart is asserted.
+The repository now includes `scripts/validate_independent_screening.py`, `tests/test_validate_independent_screening.py`, and `protocol/INDEPENDENT_SCREENING_AND_ADJUDICATION.md`. The additional checks detect artificial-as-human labels, duplicated reviewers, mismatched evidence stages, disagreement and incomplete record coverage. Execute all tests with `python -m unittest discover -s tests -v`. This is **workflow QA, not human screening**. It was added before the R42 B04 64-record scientific increment; all 964 source-ID first-pass routes remain provisional, and 1,592 records still need individual reading. No final included-study count or PRISMA chart is asserted.
 
 ## R43 scientific interpretation: government buying AI vs AI used in procurement
 
@@ -95,3 +101,7 @@ The original R41 **15-page documentary paper** and **11-page supplementary mater
 ## R47 continued primary source reading and evidence limits
 
 R47 adds `data/R47_124_CaseText_Triage_PUBLICSAFE.csv` and `data/R47_ProgressSummary.json` plus `scripts/audit_r47_public.py`, `data/R47_SourceCheck_PUBLICSAFE.csv` and `docs/R47_Scientific_Source_and_Method_Report.md`. The full original title/abstract rationale is held in restricted Drive research custody, **not public GitHub**. Original journal checks distinguish public co-design partnerships, purchases by mixed-public/private health systems, and prospective municipal practitioner views from executed government AI vendor contracts. R47 is a title/abstract source-text triage increment only, not 124 full-text admissions, independent empirical replications or a final systematic-scoping synthesis. The R46 documentary paper remains 15 main pages followed immediately by its 11-page Appendix in the same PDF.
+
+## R48: contract clauses are already studied — stronger question is evidentiary traceability
+
+R48 does **not** claim to be the first public-AI procurement or contracts study. A publicly accessible 2026 Federation of American Scientists memo reports 215 AI contracts and 3,771 provisions across three states, but its 2026 figures are author-reported ongoing research and the memo is an *external prior-art source*, not a newly included record in the locked 2,556. The narrower source-charting question is whether a document supports a normative clause, actual vendor sourcing, signed contract, dated post-award oversight action, supplier response, and a separately supported outcome. Those roles are not ordinal scores, independently verified legal remedies or causal proof. In R48, one original publisher fulltext (`BIB02569`) documents 21 functional and 6 nonfunctional criteria applied to written vendor submissions for selecting AutoML in an Australian public health service, but does not prove that contractual audit rights were exercised after deployment. See `docs/R48_SCIENTIFIC_PROGRESS_AND_PRIOR_ART_AUDIT_EN.md`. The distinct documentary 26-page Main→Appendix PDF remains scientifically unchanged.
