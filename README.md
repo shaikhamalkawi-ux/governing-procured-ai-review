@@ -4,10 +4,10 @@
 
 This public research checkpoint contains source-auditable, **non-proprietary** decision metadata and code. The study is currently in the **systematic scoping review execution phase**; it is not yet a completed PRISMA-ScR review or a final journal submission. The separate R38 documentary manuscript is a purposive critical review, not a systematic review.
 
-## Latest verified checkpoint: R41, 8 November 2026
+## Latest verified source-screening checkpoint: R42 B04, 8 November 2026
 
 - 2,556 provisional bibliographic identities after conservative reconciliation.
-- 220 titles and abstracts inspected at an **AI-assisted, single-pass, provisional** level; **2,336 remain unread**.
+- **284** titles and abstracts inspected at an **AI-assisted, single-pass, provisional** level (**220 R41 + 64 new R42**); **2,272 remain unread**.
 - A 14-source crosswalk records evidence-stage limits and original source links. These 14 entries **are not** a final included-study set.
 - No final include/exclude decisions, independent human double-screening, inter-rater statistic, prevalence estimate, causal contract-remedy effect or completed PRISMA flow is claimed.
 - Original Scopus/Web of Science raw files: **22 verified batches; 9 format-pair groups concordant** in private source custody. These licensed files are **not distributed** here.
@@ -15,7 +15,10 @@ This public research checkpoint contains source-auditable, **non-proprietary** d
 ## Structure
 
 - `data/R41_220_provisional_decisions_PUBLICSAFE.csv`: stable study IDs, first-pass routing categories, and explicit non-final status (no licensed abstracts).
-- `data/R41_progress_summary.json`: authoritative audited counts and gates.
+- `data/R41_progress_summary.json`: historical R41 audited counts and gates (unchanged). 
+- `data/R42_B04_64_provisional_decisions_PUBLICSAFE.csv` and `data/R42_progress_summary.json`: new 64-code public-safe delta and current R42 counts, neither a final eligibility register nor a sample for prevalence estimation.
+- `scripts/audit_r42_direction.py` and `tests/test_audit_r42_direction.py`: no-dependency R42 integrity tests, including a deliberately falsified-inclusion test.
+- `docs/R42_SOURCE_DIRECTION_AND_FAMILY_GATES.md`: separate government buying AI from AI helping governments or researchers analyze purchasing.
 - `data/R40_14_sources_evidence_chart_PUBLICSAFE.csv`: source-level evidence limitations and public locators.
 - `data/documentary/`: five original R29 public-safe documentary registers plus frozen `replay_public_safe.py` reproducing the 28 descriptions and 140 proposition checks (these are NOT independent empirical observations or causal effects).
 - `scripts/audit_release.py`: no-dependency public check of IDs, label totals, non-final states and crosswalk.
@@ -30,6 +33,7 @@ This public research checkpoint contains source-auditable, **non-proprietary** d
 
 ```sh
 python scripts/audit_release.py
+python scripts/audit_r42_direction.py
 python -m unittest discover -s tests -v
 python data/documentary/replay_public_safe.py
 # Optional, requires your authorized private R41 status CSV:
@@ -50,4 +54,4 @@ Code in `scripts/` and `tests/` is made available under the MIT license specifie
 
 ## R42 reproducible screening safeguard (8 November 2026)
 
-The repository now includes `scripts/validate_independent_screening.py`, `tests/test_validate_independent_screening.py`, and `protocol/INDEPENDENT_SCREENING_AND_ADJUDICATION.md`. The seven additional checks detect artificial-as-human labels, duplicated reviewers, mismatched evidence stages, disagreement and incomplete record coverage. Execute all tests with `python -m unittest discover -s tests -v`. This is **workflow QA, not human screening**: all 220 prior AI-assisted labels remain provisional, and 2,336 records remain unread. No final included-study count or PRISMA chart is asserted.
+The repository now includes `scripts/validate_independent_screening.py`, `tests/test_validate_independent_screening.py`, and `protocol/INDEPENDENT_SCREENING_AND_ADJUDICATION.md`. The additional checks detect artificial-as-human labels, duplicated reviewers, mismatched evidence stages, disagreement and incomplete record coverage. Execute all tests with `python -m unittest discover -s tests -v`. This is **workflow QA, not human screening**. It was added before the R42 B04 64-record scientific increment; all 284 first-pass judgments remain provisional, and 2,272 records are still unread. No final included-study count or PRISMA chart is asserted.
