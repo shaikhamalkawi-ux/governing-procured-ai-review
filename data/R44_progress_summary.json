@@ -1,0 +1,35 @@
+{
+  "project": "99aI",
+  "version": "R44_64_StrataSafety",
+  "as_of": "2026-11-08",
+  "original_source_sha256": "9cf7a0d07e7ebd80283437b21158c55c86559fbaa05780b4a0e6dcd58d98ce79",
+  "R43_locked_predecessor_sha256": "a9fe488600660a34bc9e87b6859164fa85edda360cddfa7a96dd2fb339fedf00",
+  "frozen_64_control_sample_sha256": "490922ed7b7b43a9978eed51650dc86ccf1ad668b4a3bb4a8b560928b79a8011",
+  "manual_decision_file_sha256": "47de445bfc4da588741cd946ab91116264a7386ae6059b254d17e9e9a99aa9fb",
+  "original_bibliographic_identity_groups": 2556,
+  "inherited_AI_firstpass": 404,
+  "new_64_individually_read_AI_firstpass": 64,
+  "cumulative_AI_firstpass": 468,
+  "unread": 2088,
+  "coverage_percent": 18.30985915,
+  "strata": {
+    "LOW_SIGNAL_SAFETY_SAMPLE": 32,
+    "MID_SIGNAL_RECALL_SAMPLE": 32
+  },
+  "new_AI_assisted_labels": {
+    "OUTSIDE_SCOPE_TA": 50,
+    "DIRECT_TA_POSSIBLE": 1,
+    "CONTEXT_ONLY": 8,
+    "HOLD_DIRECTION_OR_UNIT": 4,
+    "AI_USED_IN_PROCUREMENT_ONLY": 1
+  },
+  "low_signal_direct_candidates": [
+    "BIB00433"
+  ],
+  "source_original_public_checks": 3,
+  "first_pass_type": "AI_ASSISTED_SINGLE_PASS_NO_HUMAN_R2",
+  "PRISMA_ScR": "NOT_COMPLETED",
+  "final_inclusion": "NOT_DETERMINED",
+  "no_representative_sensitivity_claim": "STRESSED_CONTROL_SAMPLE_NOT_POPULATION_ESTIMATE",
+  "note": "Two separate deterministic strata were sampled before individual source reading, 32 low and 32 mid heuristic; preliminary labels do not form a sensitivity estimate."
+}
