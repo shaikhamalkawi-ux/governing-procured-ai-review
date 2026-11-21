@@ -1,0 +1,56 @@
+{
+  "scientific_baseline": "R76L10",
+  "new_version": "R76L11",
+  "assets": [
+    "Figure1_Auditor_Evidence_Chain.pdf",
+    "Figure3_OECD_National_Indicators.pdf",
+    "Figure2_State_AI_Contract_Clauses.pdf",
+    "Figure4_GOV_Voice_Weights.pdf",
+    "SupplementaryFigureS1_Source_Roles.pdf"
+  ],
+  "counts": {
+    "source_roles": [
+      34,
+      25,
+      16,
+      9,
+      6,
+      3
+    ],
+    "total": 93,
+    "oecd": {
+      "n": 36,
+      "support": 21,
+      "audit": 11,
+      "impact": 10
+    },
+    "state_contracts": 215,
+    "state_provisions": 3771,
+    "clause_proportions": [
+      77.0,
+      5.3,
+      3.0,
+      2.4
+    ],
+    "govvoice_quality": 70,
+    "govvoice_commercial": 30,
+    "govvoice_quality_subweights": [
+      60,
+      30,
+      10
+    ],
+    "govvoice_derived": [
+      42,
+      21,
+      7,
+      30
+    ]
+  },
+  "claim_guardrails": [
+    "None of these charts are new empirical study results",
+    "OECD country indicators are not contract cohort transitions",
+    "Clause percentages are selected provision shares, not contract success rates",
+    "Tender weights are planned criteria and derived arithmetic, not scores achieved",
+    "Cited-source distribution is a purposive bibliography, not systematic eligible studies"
+  ]
+}
