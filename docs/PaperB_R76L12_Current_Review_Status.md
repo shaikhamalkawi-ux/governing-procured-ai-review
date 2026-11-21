@@ -1,6 +1,6 @@
 # Paper B: current critical narrative review (R76L12)
 
-**Status (22 November 2026):** Author Review / **Submission HOLD**. This note records the current manuscript's bounded public provenance. It does **not** announce a peer-reviewed paper, a completed scoping review, or independent validation of all source contents.
+**Current editorial delivery R76L13 (22 November 2026):** Added a live link to this repository in the article's Data and Source Availability section; the scientific contents and 93-source bibliography remain those of R76L12. **Status:** Author Review / **Submission HOLD**. This note records the current manuscript's bounded public provenance. It does **not** announce a peer-reviewed paper, a completed scoping review, or independent validation of all source contents.
 
 **Title:** *After Government Buys AI: What Can Public-Sector Auditors Verify? A Critical Review of Supplier Accountability and Outcome Evidence*.
 
