@@ -1,5 +1,7 @@
 # Governing Procured AI — Public Reproducibility Repository (99aI)
 
+> **Current Paper B manuscript (R76L12; 22 November 2026):** *After Government Buys AI: What Can Public-Sector Auditors Verify?* is a **critical narrative review** (93 cited source identities), at **Author Review / Submission HOLD**. This public repository preserves an earlier, separate **provisional scoping-screening** workstream and now includes a bounded [Paper B status / availability note](docs/PaperB_R76L12_Current_Review_Status.md) and a [source-role arithmetic verifier](scripts/verify_paper_b_r76l12_summary.py). **Do not interpret older R51 screening counts as the current manuscript's references, or this repository as an author-approved full manuscript release.**
+
 **Research subject:** *Governing Procured AI: Vendor Accountability and Post-Deployment Oversight in the Public Sector*.
 
 This public research checkpoint contains source-auditable, **non-proprietary** decision metadata and code. The study is currently in the **systematic scoping review execution phase**; it is not yet a completed PRISMA-ScR review or a final journal submission. The separate R38 documentary manuscript is a purposive critical review, not a systematic review.
