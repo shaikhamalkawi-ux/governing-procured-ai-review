@@ -1,0 +1,6 @@
+claim_id,proposed_claim_to_test,source_1_official_url_or_locator,source_2_official_url_or_locator,source_retrieval_date,buyer_or_authority,ai_product_component_or_non_ai_rule,supplier_legal_identity_and_role,procurement_instrument_and_effective_dates,oversight_power_and_evidence_of_exercise,supplier_or_other_actor_action_and_date,outcome_measure_reporter_period,source_supported_narrow_statement,stronger_inference_not_established,missing_evidence_for_stronger_statement,coder_or_author_note,source_support_status
+USER-01,,,,,,,,,,,,,,,,
+USER-02,,,,,,,,,,,,,,,,
+USER-03,,,,,,,,,,,,,,,,
+USER-04,,,,,,,,,,,,,,,,
+USER-05,,,,,,,,,,,,,,,,

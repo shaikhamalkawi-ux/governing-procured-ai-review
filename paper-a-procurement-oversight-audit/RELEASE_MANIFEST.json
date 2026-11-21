@@ -1,0 +1,30 @@
+{
+  "author_review_version": "R76S3-G8-EP1",
+  "complete_unmodified_original_R65_R66_R75_machine_ledgers_included": false,
+  "date_UTC": "2026-11-22",
+  "external_fulltext_and_licensed_data_included": false,
+  "frozen_historical_file_repository_path": "data/documentary/R29_28Event_CXSM_A_SourceLedger.csv",
+  "human_adjudication_claimed": false,
+  "included_data_files": [
+    "claim_check_blank.csv",
+    "local_authority_13_derived_R76.csv",
+    "ministerial_20_derived_R76.csv",
+    "omilia_selected_six_payments.csv",
+    "ontario_reported_two_site_differences.csv",
+    "three_worked_examples.csv"
+  ],
+  "no_DOI": true,
+  "paper": "99aiA Paper A",
+  "parent_repo": "shaikhamalkawi-ux/governing-procured-ai-review",
+  "path": "paper-a-procurement-oversight-audit",
+  "release_kind": "PUBLIC_SOURCE_DERIVED_DATA_NOT_FINAL_DEPOSIT",
+  "scientific_baseline": "R76S3",
+  "source_CSV_SHA256": {
+    "claim_check_blank.csv": "96830a0b7f93c0bfeb48bcf2227ea45201a33a1c6c47a3ba7e4b141792385411",
+    "local_authority_13_derived_R76.csv": "e9cfe1c50bff77a72f0accf4d5e4527753d8d3b1b72c1c0a508fd492a3bb2a68",
+    "ministerial_20_derived_R76.csv": "1ad8bdf7d05e6a12e0d2167ab64d8dbcf4b9e51c7266499d5afae98971e572c9",
+    "omilia_selected_six_payments.csv": "970c008c6ee3210c8827f3b81cd52b04a0bd55d29e533c2805a3a637a177d8b2",
+    "ontario_reported_two_site_differences.csv": "2f6d3d90c2520cf46b71a65fea4c7ea13e53e0f8f525e6fe1826e8eae70f94b9",
+    "three_worked_examples.csv": "638313f84fdc0e07261f178fc0e7fc85c61986d10ba89ec8683d62e6b6f39b98"
+  }
+}
